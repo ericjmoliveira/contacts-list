@@ -18,7 +18,7 @@ In your terminal:
 4. Run the project:
    npm run dev
 
-5. In another terminal window, run the API:
+5. In a new terminal window, run the API:
    npm run api
 
 6. Done!
