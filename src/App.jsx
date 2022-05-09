@@ -210,7 +210,7 @@ function App() {
             {deleteBox.state && (
                 <div className={styles['delete-confirm-container']}>
                     <div className={styles['delete-box']}>
-                        <p>Are you sure want to delete this contact?</p>
+                        <p>Are you sure you want to delete this contact?</p>
                         <div className={styles['buttons-container']}>
                             <button
                                 className={styles['confirm-delete-btn']}

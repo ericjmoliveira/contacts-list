@@ -144,19 +144,19 @@
 
 .delete-box {
     background: #fff;
-    width: 25%;
-    height: 25%;
-    padding: 20px;
+    width: 400px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .delete-box .buttons-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 25px;
 }
 
 .delete-box .confirm-delete-btn {
