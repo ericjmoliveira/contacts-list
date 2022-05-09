@@ -1,0 +1,179 @@
+.App {
+    width: 90%;
+    margin: 25px auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container input {
+    width: 50%;
+    border: 1px solid #bbb;
+    padding: 10px 15px;
+    font-size: 1rem;
+}
+
+.header-container input:focus {
+    outline: none;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.contact-form {
+    background: #fff;
+    padding: 25px;
+    width: 50%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form-control label {
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    border: 1px solid #bbb;
+    padding: 10px 15px;
+    font-size: 1rem;
+}
+
+.form-control input:focus {
+    outline: none;
+}
+
+.create-btn,
+.cancel-btn,
+.submit-btn {
+    border: none;
+    background: rgb(44, 44, 209);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.list-container {
+    margin-top: 50px;
+}
+
+.contacts-list {
+    list-style: none;
+}
+
+.contacts-list li:first-child {
+    font-weight: 700;
+}
+
+.contacts-list li {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.contacts-list li span {
+    margin: 0 25px;
+    text-align: center;
+}
+
+.contacts-list li span .edit-btn {
+    width: min-content;
+    border: none;
+    background: rgb(49, 196, 73);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.contacts-list li span .delete-btn {
+    width: min-content;
+    border: none;
+    background: rgb(223, 24, 24);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.App p {
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.delete-confirm-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.delete-box {
+    background: #fff;
+    width: 25%;
+    height: 25%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.delete-box .buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.delete-box .confirm-delete-btn {
+    border: none;
+    background: rgb(223, 24, 24);
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.delete-box .cancel-delete-btn {
+    border: none;
+    background: rgb(44, 44, 209);
+    color: #fff;
+    padding: 5px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+}
